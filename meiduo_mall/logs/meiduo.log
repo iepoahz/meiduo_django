@@ -1,0 +1,38 @@
+INFO 2019-07-05 11:06:28,189 basehttp 124 code 400, message Bad request syntax ('\x16\x03\x01\x00®\x01\x00\x00ª\x03\x03\x10ÈµÖ\x883çËö¼OV\x85\x11V\x9bTS\x92éÉá°\x1a<¤\x82]"Ü\x0b\x89\x00\x00\x1cÌ©Ì¨Ì\x14Ì\x13À+À/À')
+ERROR 2019-07-05 11:06:28,196 basehttp 107 You're accessing the development server over HTTPS, but it only supports HTTP.
+
+INFO 2019-07-05 11:06:28,198 basehttp 124 code 400, message Bad request syntax ('\x16\x03\x01\x00®\x01\x00\x00ª\x03\x03·.\x0bÍ\x90¸\x1bwý:\r`\x87\x0bûMu!Ô\x92k¥â¬¶\x9by_6½.<\x00\x00\x1cÌ©Ì¨Ì\x14Ì\x13À+À/À')
+ERROR 2019-07-05 11:06:28,198 basehttp 107 You're accessing the development server over HTTPS, but it only supports HTTP.
+
+INFO 2019-07-05 11:06:28,377 basehttp 124 code 400, message Bad request version ('Ì©Ì¨Ì\x14Ì\x13À+À/À')
+ERROR 2019-07-05 11:06:28,378 basehttp 107 You're accessing the development server over HTTPS, but it only supports HTTP.
+
+INFO 2019-07-05 11:06:28,383 basehttp 124 code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00\x89\x01\x00\x00')
+ERROR 2019-07-05 11:06:28,386 basehttp 107 You're accessing the development server over HTTPS, but it only supports HTTP.
+
+ERROR 2019-07-05 11:06:42,931 basehttp 124 "GET /static/index.html HTTP/1.1" 500 59
+ERROR 2019-07-05 11:06:43,154 exception 77 Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2019-07-05 11:06:43,263 log 228 Bad Request: /favicon.ico
+WARNING 2019-07-05 11:06:43,263 basehttp 124 "GET /favicon.ico HTTP/1.1" 400 72932
+ERROR 2019-07-05 11:09:45,532 basehttp 124 "GET /static/front_end/index.html HTTP/1.1" 500 59
+ERROR 2019-07-05 11:09:45,595 exception 77 Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2019-07-05 11:09:45,750 log 228 Bad Request: /favicon.ico
+WARNING 2019-07-05 11:09:45,752 basehttp 124 "GET /favicon.ico HTTP/1.1" 400 72942
+WARNING 2019-07-05 11:13:23,027 basehttp 124 "GET /static/index.html HTTP/1.1" 404 1654
+WARNING 2019-07-05 11:13:23,221 log 228 Not Found: /favicon.ico
+WARNING 2019-07-05 11:13:23,222 basehttp 124 "GET /favicon.ico HTTP/1.1" 404 1977
+INFO 2019-07-05 11:14:33,745 basehttp 124 "OPTIONS /cart/ HTTP/1.1" 200 0
+INFO 2019-07-05 11:21:17,069 basehttp 124 "GET /static/index.html HTTP/1.1" 200 110144
+INFO 2019-07-05 11:21:17,266 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 200 664
+INFO 2019-07-05 11:21:17,272 basehttp 124 "GET /static/css/main.css HTTP/1.1" 200 38531
+INFO 2019-07-05 11:21:17,351 basehttp 124 "GET /static/js/host.js HTTP/1.1" 200 40
+INFO 2019-07-05 11:21:17,354 basehttp 124 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
+INFO 2019-07-05 11:21:17,367 basehttp 124 "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 200 97163
+INFO 2019-07-05 11:21:17,370 basehttp 124 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2019-07-05 11:21:17,389 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 200 7450
+INFO 2019-07-05 11:21:17,394 basehttp 124 "GET /static/js/slide.js HTTP/1.1" 200 1912
+INFO 2019-07-05 11:21:17,805 basehttp 124 "GET /static/js/index.js HTTP/1.1" 200 1660
+INFO 2019-07-05 11:21:20,636 basehttp 124 "OPTIONS /cart/ HTTP/1.1" 200 0
+INFO 2019-07-05 11:21:20,714 basehttp 124 "GET /static/images/icons.png HTTP/1.1" 200 7740
+WARNING 2019-07-05 11:21:21,994 log 228 Not Found: /cart/
+WARNING 2019-07-05 11:21:22,000 basehttp 124 "GET /cart/ HTTP/1.1" 404 1964
