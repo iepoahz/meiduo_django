@@ -46,6 +46,8 @@ INSTALLED_APPS = [
     'rest_framework',   #注册rest_framework应用,后期调用API web测试
     'corsheaders',  #跨域请求第三方库django-cors-headers==2.4.0
     'users.apps.UsersConfig', #子应用users
+    'verifications.apps.VerificationsConfig', #子应用verifications
+
 
 
 
