@@ -1,14 +1,16 @@
 
-from celery import task
+from celery import Celery
+# from  celery import task
+
 import logging
 
 from meiduo_mall import constants
 from meiduo_mall.utils.yuntongxun.sms import CCP
 
 logger = logging.getLogger("django")
-
-
-@task
+app = Celery("meiduo_mall")
+app.config_from_object("meiduo_mall.settings.dev")
+@app.task
 def send_sms_code(mobile, sms_code):
     """
     发送短信验证码

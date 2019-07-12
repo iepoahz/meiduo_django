@@ -117,3 +117,369 @@ INFO 2019-07-11 18:38:11,789 basehttp 124 "GET /image_codes/d42884d8-d23b-4f6e-b
 INFO 2019-07-11 18:38:13,987 basehttp 124 "GET /image_codes/a9c1da6b-50f4-4db1-9729-64a6ad855c8b/ HTTP/1.1" 200 2983
 INFO 2019-07-11 18:38:23,102 basehttp 124 "GET /image_codes/46f39583-e520-4d7a-b263-e520c86f450a/ HTTP/1.1" 200 3099
 INFO 2019-07-11 18:38:23,625 basehttp 124 "GET /image_codes/2036fac0-ae3f-446a-b3b2-b01e8527436f/ HTTP/1.1" 200 3058
+INFO 2019-07-12 13:04:37,290 basehttp 124 "OPTIONS /cart/ HTTP/1.1" 200 0
+WARNING 2019-07-12 13:04:37,507 log 228 Not Found: /cart/
+WARNING 2019-07-12 13:04:37,509 basehttp 124 "GET /cart/ HTTP/1.1" 404 2152
+WARNING 2019-07-12 13:04:41,456 log 228 Not Found: /cart/
+WARNING 2019-07-12 13:04:41,460 basehttp 124 "GET /cart/ HTTP/1.1" 404 2152
+INFO 2019-07-12 13:05:07,273 basehttp 124 "GET /image_codes/585bb5d7-24d0-464b-8e3b-862d5ebb7337/ HTTP/1.1" 200 3062
+INFO 2019-07-12 13:05:46,374 basehttp 124 "GET /image_codes/785e1fae-602a-48ea-9c0c-586e88a4c591/ HTTP/1.1" 200 3182
+WARNING 2019-07-12 13:13:27,592 log 228 Not Found: /mobiles/17793491278/count/
+WARNING 2019-07-12 13:13:27,593 basehttp 124 "GET /mobiles/17793491278/count/ HTTP/1.1" 404 2215
+INFO 2019-07-12 13:13:27,684 basehttp 124 "GET /image_codes/e15b6dce-d051-4f5c-ad74-dc2e3246d5e8/ HTTP/1.1" 200 3444
+WARNING 2019-07-12 13:13:34,166 log 228 Not Found: /mobiles/17793491278/count/
+WARNING 2019-07-12 13:13:34,167 basehttp 124 "GET /mobiles/17793491278/count/ HTTP/1.1" 404 2215
+WARNING 2019-07-12 13:13:34,251 log 228 Not Found: /sms_codes/17793491278/
+WARNING 2019-07-12 13:13:34,259 basehttp 124 "GET /sms_codes/17793491278/?text=fm8k&image_code_id=e15b6dce-d051-4f5c-ad74-dc2e3246d5e8 HTTP/1.1" 404 2268
+WARNING 2019-07-12 13:13:57,890 log 228 Not Found: /mobiles/17793491278/count/
+WARNING 2019-07-12 13:13:57,891 basehttp 124 "GET /mobiles/17793491278/count/ HTTP/1.1" 404 2215
+WARNING 2019-07-12 13:13:57,912 log 228 Not Found: /sms_codes/17793491278/
+WARNING 2019-07-12 13:13:57,912 basehttp 124 "GET /sms_codes/17793491278/?text=fm8k&image_code_id=e15b6dce-d051-4f5c-ad74-dc2e3246d5e8 HTTP/1.1" 404 2268
+INFO 2019-07-12 13:31:39,872 basehttp 124 "GET /image_codes/b8a07c06-90ab-4a3d-8af7-b503082bfed3/ HTTP/1.1" 200 3106
+WARNING 2019-07-12 13:31:46,828 log 228 Not Found: /mobiles/17793491278/count/
+WARNING 2019-07-12 13:31:46,828 basehttp 124 "GET /mobiles/17793491278/count/ HTTP/1.1" 404 2395
+WARNING 2019-07-12 13:31:54,297 log 228 Not Found: /mobiles/17793491278/count/
+WARNING 2019-07-12 13:31:54,298 basehttp 124 "GET /mobiles/17793491278/count/ HTTP/1.1" 404 2395
+WARNING 2019-07-12 13:31:54,315 log 228 Not Found: /sms_codes/17793491278/
+WARNING 2019-07-12 13:31:54,316 basehttp 124 "GET /sms_codes/17793491278/?text=swso&image_code_id=b8a07c06-90ab-4a3d-8af7-b503082bfed3 HTTP/1.1" 404 2448
+WARNING 2019-07-12 13:31:57,884 log 228 Not Found: /mobiles/17793491278/count/
+WARNING 2019-07-12 13:31:57,899 basehttp 124 "GET /mobiles/17793491278/count/ HTTP/1.1" 404 2395
+WARNING 2019-07-12 13:31:57,900 log 228 Not Found: /sms_codes/17793491278/
+WARNING 2019-07-12 13:31:57,919 basehttp 124 "GET /sms_codes/17793491278/?text=swso&image_code_id=b8a07c06-90ab-4a3d-8af7-b503082bfed3 HTTP/1.1" 404 2448
+WARNING 2019-07-12 13:34:20,090 log 228 Not Found: /sms_codes/17793491278/
+WARNING 2019-07-12 13:34:20,150 basehttp 124 "GET /sms_codes/17793491278/?text=swso&image_code_id=b8a07c06-90ab-4a3d-8af7-b503082bfed3 HTTP/1.1" 404 2448
+WARNING 2019-07-12 13:34:58,814 log 228 Not Found: /sms_codes/17793491278/
+WARNING 2019-07-12 13:34:58,814 basehttp 124 "GET /sms_codes/17793491278/?text=swso&image_code_id=b8a07c06-90ab-4a3d-8af7-b503082bfed3 HTTP/1.1" 404 2448
+INFO 2019-07-12 13:46:47,511 basehttp 124 "GET /image_codes/00fc61b9-0d50-4f19-a312-f86caabf1ce0/ HTTP/1.1" 200 3265
+INFO 2019-07-12 13:47:01,970 basehttp 124 "GET /image_codes/024525a2-2424-45e5-abd8-3f352d0d959e/ HTTP/1.1" 200 3449
+WARNING 2019-07-12 13:47:13,626 log 228 Not Found: /mobiles/17793491278/count/
+WARNING 2019-07-12 13:47:13,628 basehttp 124 "GET /mobiles/17793491278/count/ HTTP/1.1" 404 2412
+WARNING 2019-07-12 13:47:19,796 log 228 Not Found: /sms_codes/17793491278/
+WARNING 2019-07-12 13:47:19,788 log 228 Not Found: /mobiles/17793491278/count/
+WARNING 2019-07-12 13:47:19,800 basehttp 124 "GET /mobiles/17793491278/count/ HTTP/1.1" 404 2412
+WARNING 2019-07-12 13:47:19,805 basehttp 124 "GET /sms_codes/17793491278/?text=metr&image_code_id=024525a2-2424-45e5-abd8-3f352d0d959e HTTP/1.1" 404 2465
+WARNING 2019-07-12 13:56:56,345 log 228 Not Found: /sms_codes/17793491278/
+WARNING 2019-07-12 13:56:56,348 basehttp 124 "GET /sms_codes/17793491278/?text=swso&image_code_id=b8a07c06-90ab-4a3d-8af7-b503082bfed3 HTTP/1.1" 404 2477
+INFO 2019-07-12 14:07:28,915 basehttp 124 "GET /image_codes/69e2a296-17e5-4208-9a20-8e72e57fca11/ HTTP/1.1" 200 3249
+WARNING 2019-07-12 14:07:37,319 log 228 Not Found: /mobiles/17793491278/count/
+WARNING 2019-07-12 14:07:37,319 basehttp 124 "GET /mobiles/17793491278/count/ HTTP/1.1" 404 2424
+WARNING 2019-07-12 14:07:42,134 log 228 Not Found: /mobiles/17793491278/count/
+WARNING 2019-07-12 14:07:42,135 basehttp 124 "GET /mobiles/17793491278/count/ HTTP/1.1" 404 2424
+WARNING 2019-07-12 14:07:42,133 log 228 Not Found: /sms_codes/17793491278/
+WARNING 2019-07-12 14:07:42,141 basehttp 124 "GET /sms_codes/17793491278/?text=yvnd&image_code_id=69e2a296-17e5-4208-9a20-8e72e57fca11 HTTP/1.1" 404 2477
+WARNING 2019-07-12 14:08:13,785 log 228 Not Found: /mobiles/17793491278/count/
+WARNING 2019-07-12 14:08:13,786 basehttp 124 "GET /mobiles/17793491278/count/ HTTP/1.1" 404 2393
+INFO 2019-07-12 14:08:13,997 basehttp 124 "GET /sms_codes/17793491278/?text=yvnd&image_code_id=69e2a296-17e5-4208-9a20-8e72e57fca11 HTTP/1.1" 200 16
+INFO 2019-07-12 14:18:35,973 basehttp 124 "GET /image_codes/1f6752c7-9acf-447f-ae2f-82ffbc6f19b6/ HTTP/1.1" 200 3105
+WARNING 2019-07-12 14:18:43,148 log 228 Not Found: /mobiles/17793491278/count/
+WARNING 2019-07-12 14:18:43,150 basehttp 124 "GET /mobiles/17793491278/count/ HTTP/1.1" 404 2393
+INFO 2019-07-12 14:18:43,197 basehttp 124 "GET /image_codes/a37183b9-6cd9-4ff8-af25-d7be9eda27da/ HTTP/1.1" 200 3493
+WARNING 2019-07-12 14:18:48,753 log 228 Not Found: /mobiles/17793491278/count/
+WARNING 2019-07-12 14:18:48,764 basehttp 124 "GET /mobiles/17793491278/count/ HTTP/1.1" 404 2393
+INFO 2019-07-12 14:18:48,792 basehttp 124 "GET /sms_codes/17793491278/?text=psxe&image_code_id=a37183b9-6cd9-4ff8-af25-d7be9eda27da HTTP/1.1" 200 16
+WARNING 2019-07-12 14:53:45,229 log 228 Not Found: /mobiles/17793491278/count/
+WARNING 2019-07-12 14:53:45,252 basehttp 124 "GET /mobiles/17793491278/count/ HTTP/1.1" 404 2393
+WARNING 2019-07-12 14:53:45,298 log 228 Bad Request: /sms_codes/17793491278/
+WARNING 2019-07-12 14:53:45,298 basehttp 124 "GET /sms_codes/17793491278/?text=psxe&image_code_id=a37183b9-6cd9-4ff8-af25-d7be9eda27da HTTP/1.1" 400 49
+INFO 2019-07-12 14:54:16,641 basehttp 124 "GET /image_codes/e20c7450-5496-4256-96c3-b889a23940c0/ HTTP/1.1" 200 3172
+WARNING 2019-07-12 14:54:23,047 log 228 Not Found: /mobiles/17793491278/count/
+WARNING 2019-07-12 14:54:23,048 basehttp 124 "GET /mobiles/17793491278/count/ HTTP/1.1" 404 2393
+WARNING 2019-07-12 14:54:35,729 log 228 Not Found: /mobiles/17793491278/count/
+WARNING 2019-07-12 14:54:35,730 basehttp 124 "GET /mobiles/17793491278/count/ HTTP/1.1" 404 2393
+WARNING 2019-07-12 14:54:35,763 log 228 Bad Request: /sms_codes/17793491278/
+WARNING 2019-07-12 14:54:35,766 basehttp 124 "GET /sms_codes/17793491278/?text=qags&image_code_id=e20c7450-5496-4256-96c3-b889a23940c0 HTTP/1.1" 400 46
+INFO 2019-07-12 14:54:40,739 basehttp 124 "GET /image_codes/d17b13a9-9a2d-42a6-a6ad-cf4a6a9acb5c/ HTTP/1.1" 200 3199
+WARNING 2019-07-12 14:54:52,324 log 228 Not Found: /mobiles/17793491278/count/
+WARNING 2019-07-12 14:54:52,324 basehttp 124 "GET /mobiles/17793491278/count/ HTTP/1.1" 404 2393
+WARNING 2019-07-12 14:54:52,340 log 228 Bad Request: /sms_codes/17793491278/
+WARNING 2019-07-12 14:54:52,341 basehttp 124 "GET /sms_codes/17793491278/?text=mkvo&image_code_id=d17b13a9-9a2d-42a6-a6ad-cf4a6a9acb5c HTTP/1.1" 400 46
+INFO 2019-07-12 14:54:56,875 basehttp 124 "GET /image_codes/73ffaa8d-d11d-4e71-a95d-cbdb54f0508a/ HTTP/1.1" 200 3043
+WARNING 2019-07-12 14:55:04,296 log 228 Not Found: /mobiles/17793491278/count/
+WARNING 2019-07-12 14:55:04,296 basehttp 124 "GET /mobiles/17793491278/count/ HTTP/1.1" 404 2393
+INFO 2019-07-12 14:55:04,388 basehttp 124 "GET /sms_codes/17793491278/?text=uove&image_code_id=73ffaa8d-d11d-4e71-a95d-cbdb54f0508a HTTP/1.1" 200 16
+WARNING 2019-07-12 14:56:40,836 log 228 Bad Request: /sms_codes/17793491278/
+WARNING 2019-07-12 14:56:40,873 basehttp 124 "GET /sms_codes/17793491278/?text=uove&image_code_id=73ffaa8d-d11d-4e71-a95d-cbdb54f0508a HTTP/1.1" 400 49
+WARNING 2019-07-12 14:56:40,872 log 228 Not Found: /mobiles/17793491278/count/
+WARNING 2019-07-12 14:56:40,900 basehttp 124 "GET /mobiles/17793491278/count/ HTTP/1.1" 404 2393
+INFO 2019-07-12 14:56:42,853 basehttp 124 "GET /image_codes/19cebc01-32ed-419c-91e9-28dab7a2cead/ HTTP/1.1" 200 3030
+WARNING 2019-07-12 14:56:50,021 log 228 Not Found: /mobiles/17793491278/count/
+WARNING 2019-07-12 14:56:50,023 basehttp 124 "GET /mobiles/17793491278/count/ HTTP/1.1" 404 2393
+INFO 2019-07-12 14:56:50,132 basehttp 124 "GET /sms_codes/17793491278/?text=aswr&image_code_id=19cebc01-32ed-419c-91e9-28dab7a2cead HTTP/1.1" 200 16
+INFO 2019-07-12 15:31:19,759 basehttp 124 "OPTIONS /cart/ HTTP/1.1" 200 0
+WARNING 2019-07-12 15:31:21,062 log 228 Not Found: /cart/
+WARNING 2019-07-12 15:31:21,063 basehttp 124 "GET /cart/ HTTP/1.1" 404 2330
+WARNING 2019-07-12 15:31:21,495 log 228 Not Found: /cart/
+WARNING 2019-07-12 15:31:21,499 basehttp 124 "GET /cart/ HTTP/1.1" 404 2330
+INFO 2019-07-12 15:31:24,038 basehttp 124 "GET /image_codes/121f1f87-8747-4794-8bc0-cc23329ea0df/ HTTP/1.1" 200 3033
+WARNING 2019-07-12 15:31:40,880 log 228 Not Found: /mobiles/17793491278/count/
+WARNING 2019-07-12 15:31:40,881 basehttp 124 "GET /mobiles/17793491278/count/ HTTP/1.1" 404 2393
+WARNING 2019-07-12 15:31:48,286 log 228 Not Found: /mobiles/17793491278/count/
+WARNING 2019-07-12 15:31:48,296 basehttp 124 "GET /mobiles/17793491278/count/ HTTP/1.1" 404 2393
+INFO 2019-07-12 15:31:48,502 basehttp 124 "GET /sms_codes/17793491278/?text=wgcq&image_code_id=121f1f87-8747-4794-8bc0-cc23329ea0df HTTP/1.1" 200 16
+WARNING 2019-07-12 15:34:58,753 log 228 Not Found: /mobiles/17793491278/count/
+WARNING 2019-07-12 15:34:58,754 basehttp 124 "GET /mobiles/17793491278/count/ HTTP/1.1" 404 2393
+WARNING 2019-07-12 15:34:58,789 log 228 Bad Request: /sms_codes/17793491278/
+WARNING 2019-07-12 15:34:58,790 basehttp 124 "GET /sms_codes/17793491278/?text=wgcq&image_code_id=121f1f87-8747-4794-8bc0-cc23329ea0df HTTP/1.1" 400 49
+INFO 2019-07-12 15:35:00,190 basehttp 124 "GET /image_codes/1a483258-7de8-4b1b-b774-dd63b28a27e7/ HTTP/1.1" 200 3169
+WARNING 2019-07-12 15:35:07,707 log 228 Not Found: /mobiles/17793491278/count/
+WARNING 2019-07-12 15:35:07,723 basehttp 124 "GET /mobiles/17793491278/count/ HTTP/1.1" 404 2393
+INFO 2019-07-12 15:35:07,724 basehttp 124 "GET /sms_codes/17793491278/?text=jvv3&image_code_id=1a483258-7de8-4b1b-b774-dd63b28a27e7 HTTP/1.1" 200 16
+INFO 2019-07-12 15:37:05,575 basehttp 124 "OPTIONS /cart/ HTTP/1.1" 200 0
+WARNING 2019-07-12 15:37:06,410 log 228 Not Found: /cart/
+WARNING 2019-07-12 15:37:06,412 basehttp 124 "GET /cart/ HTTP/1.1" 404 2330
+WARNING 2019-07-12 15:38:36,237 log 228 Not Found: /cart/
+WARNING 2019-07-12 15:38:36,239 basehttp 124 "GET /cart/ HTTP/1.1" 404 2330
+INFO 2019-07-12 15:38:38,161 basehttp 124 "GET /image_codes/6fdf5b4c-2746-4d10-afc5-ee4d3a52d368/ HTTP/1.1" 200 3218
+INFO 2019-07-12 15:38:39,634 basehttp 124 "GET /image_codes/b5139407-648b-43a3-b2d3-d697afd7ecde/ HTTP/1.1" 200 2914
+WARNING 2019-07-12 15:38:53,200 log 228 Not Found: /mobiles/17793491278/count/
+WARNING 2019-07-12 15:38:53,201 basehttp 124 "GET /mobiles/17793491278/count/ HTTP/1.1" 404 2393
+WARNING 2019-07-12 15:38:53,890 log 228 Not Found: /mobiles/17793491278/count/
+WARNING 2019-07-12 15:38:53,891 basehttp 124 "GET /mobiles/17793491278/count/ HTTP/1.1" 404 2393
+WARNING 2019-07-12 15:38:53,904 log 228 Bad Request: /sms_codes/17793491278/
+WARNING 2019-07-12 15:38:53,905 basehttp 124 "GET /sms_codes/17793491278/?text=4pjk&image_code_id=b5139407-648b-43a3-b2d3-d697afd7ecde HTTP/1.1" 400 46
+INFO 2019-07-12 15:38:57,402 basehttp 124 "GET /image_codes/4c489097-25b1-4fc1-8a89-4019d7283fad/ HTTP/1.1" 200 3067
+WARNING 2019-07-12 15:39:07,229 log 228 Bad Request: /sms_codes/17793491278/
+WARNING 2019-07-12 15:39:07,231 basehttp 124 "GET /sms_codes/17793491278/?text=x67o&image_code_id=4c489097-25b1-4fc1-8a89-4019d7283fad HTTP/1.1" 400 46
+WARNING 2019-07-12 15:39:07,253 log 228 Not Found: /mobiles/17793491278/count/
+WARNING 2019-07-12 15:39:07,255 basehttp 124 "GET /mobiles/17793491278/count/ HTTP/1.1" 404 2393
+INFO 2019-07-12 15:39:08,489 basehttp 124 "GET /image_codes/03ed6a1b-a450-4f90-9ac4-7b1cd1e77dfe/ HTTP/1.1" 200 3210
+WARNING 2019-07-12 15:39:15,009 log 228 Not Found: /mobiles/17793491278/count/
+WARNING 2019-07-12 15:39:15,011 basehttp 124 "GET /mobiles/17793491278/count/ HTTP/1.1" 404 2393
+INFO 2019-07-12 15:39:15,053 basehttp 124 "GET /sms_codes/17793491278/?text=ausj&image_code_id=03ed6a1b-a450-4f90-9ac4-7b1cd1e77dfe HTTP/1.1" 200 16
+WARNING 2019-07-12 15:47:08,303 log 228 Not Found: /mobiles/17793491278/count/
+WARNING 2019-07-12 15:47:08,307 basehttp 124 "GET /mobiles/17793491278/count/ HTTP/1.1" 404 2393
+WARNING 2019-07-12 15:47:08,311 log 228 Bad Request: /sms_codes/17793491278/
+WARNING 2019-07-12 15:47:08,312 basehttp 124 "GET /sms_codes/17793491278/?text=ausj&image_code_id=03ed6a1b-a450-4f90-9ac4-7b1cd1e77dfe HTTP/1.1" 400 49
+INFO 2019-07-12 15:47:09,762 basehttp 124 "GET /image_codes/e87ad5fb-3789-4f10-8d60-ab741215924f/ HTTP/1.1" 200 3412
+WARNING 2019-07-12 15:47:14,775 log 228 Bad Request: /sms_codes/17793491278/
+WARNING 2019-07-12 15:47:14,776 log 228 Not Found: /mobiles/17793491278/count/
+WARNING 2019-07-12 15:47:14,778 basehttp 124 "GET /mobiles/17793491278/count/ HTTP/1.1" 404 2393
+WARNING 2019-07-12 15:47:14,781 basehttp 124 "GET /sms_codes/17793491278/?text=xusm&image_code_id=e87ad5fb-3789-4f10-8d60-ab741215924f HTTP/1.1" 400 46
+WARNING 2019-07-12 15:47:22,038 log 228 Not Found: /mobiles/17793491278/count/
+WARNING 2019-07-12 15:47:22,039 basehttp 124 "GET /mobiles/17793491278/count/ HTTP/1.1" 404 2393
+ERROR 2019-07-12 15:47:22,943 log 228 Internal Server Error: /sms_codes/17793491278/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_django/lib/python3.5/site-packages/kombu/utils/__init__.py", line 423, in __call__
+    return self.__value__
+AttributeError: 'ChannelPromise' object has no attribute '__value__'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_django/lib/python3.5/site-packages/kombu/connection.py", line 449, in _ensured
+    return fun(*args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_django/lib/python3.5/site-packages/kombu/messaging.py", line 177, in _publish
+    channel = self.channel
+  File "/home/python/.virtualenvs/meiduo_django/lib/python3.5/site-packages/kombu/messaging.py", line 194, in _get_channel
+    channel = self._channel = channel()
+  File "/home/python/.virtualenvs/meiduo_django/lib/python3.5/site-packages/kombu/utils/__init__.py", line 425, in __call__
+    value = self.__value__ = self.__contract__()
+  File "/home/python/.virtualenvs/meiduo_django/lib/python3.5/site-packages/kombu/messaging.py", line 209, in <lambda>
+    channel = ChannelPromise(lambda: connection.default_channel)
+  File "/home/python/.virtualenvs/meiduo_django/lib/python3.5/site-packages/kombu/connection.py", line 771, in default_channel
+    self.connection
+  File "/home/python/.virtualenvs/meiduo_django/lib/python3.5/site-packages/kombu/connection.py", line 756, in connection
+    self._connection = self._establish_connection()
+  File "/home/python/.virtualenvs/meiduo_django/lib/python3.5/site-packages/kombu/connection.py", line 711, in _establish_connection
+    conn = self.transport.establish_connection()
+  File "/home/python/.virtualenvs/meiduo_django/lib/python3.5/site-packages/kombu/transport/pyamqp.py", line 116, in establish_connection
+    conn = self.Connection(**opts)
+  File "/home/python/.virtualenvs/meiduo_django/lib/python3.5/site-packages/amqp/connection.py", line 165, in __init__
+    self.transport = self.Transport(host, connect_timeout, ssl)
+  File "/home/python/.virtualenvs/meiduo_django/lib/python3.5/site-packages/amqp/connection.py", line 186, in Transport
+    return create_transport(host, connect_timeout, ssl)
+  File "/home/python/.virtualenvs/meiduo_django/lib/python3.5/site-packages/amqp/transport.py", line 299, in create_transport
+    return TCPTransport(host, connect_timeout)
+  File "/home/python/.virtualenvs/meiduo_django/lib/python3.5/site-packages/amqp/transport.py", line 95, in __init__
+    raise socket.error(last_err)
+OSError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_django/lib/python3.5/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meiduo_django/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meiduo_django/lib/python3.5/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meiduo_django/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_django/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_django/lib/python3.5/site-packages/rest_framework/views.py", line 483, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/python/.virtualenvs/meiduo_django/lib/python3.5/site-packages/rest_framework/views.py", line 443, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/python/.virtualenvs/meiduo_django/lib/python3.5/site-packages/rest_framework/views.py", line 480, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/python/Desktop/meiduo_mall/meiduo_mall/meiduo_mall/apps/verifications/views.py", line 67, in get
+    send_sms_code.delay(mobile,sms_code)
+  File "/home/python/.virtualenvs/meiduo_django/lib/python3.5/site-packages/celery/app/task.py", line 461, in delay
+    return self.apply_async(args, kwargs)
+  File "/home/python/.virtualenvs/meiduo_django/lib/python3.5/site-packages/celery/app/task.py", line 573, in apply_async
+    **dict(self._get_exec_options(), **options)
+  File "/home/python/.virtualenvs/meiduo_django/lib/python3.5/site-packages/celery/app/base.py", line 354, in send_task
+    reply_to=reply_to or self.oid, **options
+  File "/home/python/.virtualenvs/meiduo_django/lib/python3.5/site-packages/celery/app/amqp.py", line 310, in publish_task
+    **kwargs
+  File "/home/python/.virtualenvs/meiduo_django/lib/python3.5/site-packages/kombu/messaging.py", line 172, in publish
+    routing_key, mandatory, immediate, exchange, declare)
+  File "/home/python/.virtualenvs/meiduo_django/lib/python3.5/site-packages/kombu/connection.py", line 470, in _ensured
+    interval_max)
+  File "/home/python/.virtualenvs/meiduo_django/lib/python3.5/site-packages/kombu/connection.py", line 382, in ensure_connection
+    interval_start, interval_step, interval_max, callback)
+  File "/home/python/.virtualenvs/meiduo_django/lib/python3.5/site-packages/kombu/utils/__init__.py", line 246, in retry_over_time
+    return fun(*args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_django/lib/python3.5/site-packages/kombu/connection.py", line 250, in connect
+    return self.connection
+  File "/home/python/.virtualenvs/meiduo_django/lib/python3.5/site-packages/kombu/connection.py", line 756, in connection
+    self._connection = self._establish_connection()
+  File "/home/python/.virtualenvs/meiduo_django/lib/python3.5/site-packages/kombu/connection.py", line 711, in _establish_connection
+    conn = self.transport.establish_connection()
+  File "/home/python/.virtualenvs/meiduo_django/lib/python3.5/site-packages/kombu/transport/pyamqp.py", line 116, in establish_connection
+    conn = self.Connection(**opts)
+  File "/home/python/.virtualenvs/meiduo_django/lib/python3.5/site-packages/amqp/connection.py", line 165, in __init__
+    self.transport = self.Transport(host, connect_timeout, ssl)
+  File "/home/python/.virtualenvs/meiduo_django/lib/python3.5/site-packages/amqp/connection.py", line 186, in Transport
+    return create_transport(host, connect_timeout, ssl)
+  File "/home/python/.virtualenvs/meiduo_django/lib/python3.5/site-packages/amqp/transport.py", line 299, in create_transport
+    return TCPTransport(host, connect_timeout)
+  File "/home/python/.virtualenvs/meiduo_django/lib/python3.5/site-packages/amqp/transport.py", line 95, in __init__
+    raise socket.error(last_err)
+OSError: [Errno 111] Connection refused
+ERROR 2019-07-12 15:47:22,949 basehttp 124 "GET /sms_codes/17793491278/?text=xnsm&image_code_id=e87ad5fb-3789-4f10-8d60-ab741215924f HTTP/1.1" 500 25447
+WARNING 2019-07-12 15:47:24,472 log 228 Bad Request: /sms_codes/17793491278/
+WARNING 2019-07-12 15:47:24,476 log 228 Not Found: /mobiles/17793491278/count/
+WARNING 2019-07-12 15:47:24,478 basehttp 124 "GET /mobiles/17793491278/count/ HTTP/1.1" 404 2393
+WARNING 2019-07-12 15:47:24,480 basehttp 124 "GET /sms_codes/17793491278/?text=xnsm&image_code_id=e87ad5fb-3789-4f10-8d60-ab741215924f HTTP/1.1" 400 49
+INFO 2019-07-12 15:47:26,977 basehttp 124 "GET /image_codes/68d298ae-fdc1-495f-960b-0449a5f44039/ HTTP/1.1" 200 2840
+WARNING 2019-07-12 15:47:32,406 log 228 Not Found: /mobiles/17793491278/count/
+WARNING 2019-07-12 15:47:32,408 basehttp 124 "GET /mobiles/17793491278/count/ HTTP/1.1" 404 2393
+WARNING 2019-07-12 15:47:32,405 log 228 Bad Request: /sms_codes/17793491278/
+WARNING 2019-07-12 15:47:32,410 basehttp 124 "GET /sms_codes/17793491278/?text=lfdh&image_code_id=68d298ae-fdc1-495f-960b-0449a5f44039 HTTP/1.1" 400 55
+INFO 2019-07-12 15:47:34,824 basehttp 124 "GET /image_codes/37d8e558-f716-4109-ad30-d1b7dac0a537/ HTTP/1.1" 200 3520
+INFO 2019-07-12 15:48:04,816 basehttp 124 "GET /image_codes/3ed71ce7-7e82-4727-8e54-8d7b12d6191a/ HTTP/1.1" 200 3320
+WARNING 2019-07-12 15:48:14,085 log 228 Not Found: /mobiles/17793491278/count/
+WARNING 2019-07-12 15:48:14,087 basehttp 124 "GET /mobiles/17793491278/count/ HTTP/1.1" 404 2393
+WARNING 2019-07-12 15:48:14,099 log 228 Bad Request: /sms_codes/17793491278/
+WARNING 2019-07-12 15:48:14,109 basehttp 124 "GET /sms_codes/17793491278/?text=I8GN&image_code_id=3ed71ce7-7e82-4727-8e54-8d7b12d6191a HTTP/1.1" 400 55
+INFO 2019-07-12 15:48:28,571 basehttp 124 "GET /image_codes/7b8d12b2-6c16-41b5-9a7f-a1b36a9cfeb6/ HTTP/1.1" 200 3205
+WARNING 2019-07-12 15:48:43,163 log 228 Not Found: /mobiles/17793491278/count/
+WARNING 2019-07-12 15:48:43,164 basehttp 124 "GET /mobiles/17793491278/count/ HTTP/1.1" 404 2393
+ERROR 2019-07-12 15:48:43,863 log 228 Internal Server Error: /sms_codes/17793491278/
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_django/lib/python3.5/site-packages/kombu/utils/__init__.py", line 423, in __call__
+    return self.__value__
+AttributeError: 'ChannelPromise' object has no attribute '__value__'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_django/lib/python3.5/site-packages/kombu/connection.py", line 449, in _ensured
+    return fun(*args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_django/lib/python3.5/site-packages/kombu/messaging.py", line 177, in _publish
+    channel = self.channel
+  File "/home/python/.virtualenvs/meiduo_django/lib/python3.5/site-packages/kombu/messaging.py", line 194, in _get_channel
+    channel = self._channel = channel()
+  File "/home/python/.virtualenvs/meiduo_django/lib/python3.5/site-packages/kombu/utils/__init__.py", line 425, in __call__
+    value = self.__value__ = self.__contract__()
+  File "/home/python/.virtualenvs/meiduo_django/lib/python3.5/site-packages/kombu/messaging.py", line 209, in <lambda>
+    channel = ChannelPromise(lambda: connection.default_channel)
+  File "/home/python/.virtualenvs/meiduo_django/lib/python3.5/site-packages/kombu/connection.py", line 771, in default_channel
+    self.connection
+  File "/home/python/.virtualenvs/meiduo_django/lib/python3.5/site-packages/kombu/connection.py", line 756, in connection
+    self._connection = self._establish_connection()
+  File "/home/python/.virtualenvs/meiduo_django/lib/python3.5/site-packages/kombu/connection.py", line 711, in _establish_connection
+    conn = self.transport.establish_connection()
+  File "/home/python/.virtualenvs/meiduo_django/lib/python3.5/site-packages/kombu/transport/pyamqp.py", line 116, in establish_connection
+    conn = self.Connection(**opts)
+  File "/home/python/.virtualenvs/meiduo_django/lib/python3.5/site-packages/amqp/connection.py", line 165, in __init__
+    self.transport = self.Transport(host, connect_timeout, ssl)
+  File "/home/python/.virtualenvs/meiduo_django/lib/python3.5/site-packages/amqp/connection.py", line 186, in Transport
+    return create_transport(host, connect_timeout, ssl)
+  File "/home/python/.virtualenvs/meiduo_django/lib/python3.5/site-packages/amqp/transport.py", line 299, in create_transport
+    return TCPTransport(host, connect_timeout)
+  File "/home/python/.virtualenvs/meiduo_django/lib/python3.5/site-packages/amqp/transport.py", line 95, in __init__
+    raise socket.error(last_err)
+OSError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/meiduo_django/lib/python3.5/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/meiduo_django/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/python/.virtualenvs/meiduo_django/lib/python3.5/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/python/.virtualenvs/meiduo_django/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_django/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_django/lib/python3.5/site-packages/rest_framework/views.py", line 483, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/python/.virtualenvs/meiduo_django/lib/python3.5/site-packages/rest_framework/views.py", line 443, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/python/.virtualenvs/meiduo_django/lib/python3.5/site-packages/rest_framework/views.py", line 480, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/python/Desktop/meiduo_mall/meiduo_mall/meiduo_mall/apps/verifications/views.py", line 67, in get
+    send_sms_code.delay(mobile,sms_code)
+  File "/home/python/.virtualenvs/meiduo_django/lib/python3.5/site-packages/celery/app/task.py", line 461, in delay
+    return self.apply_async(args, kwargs)
+  File "/home/python/.virtualenvs/meiduo_django/lib/python3.5/site-packages/celery/app/task.py", line 573, in apply_async
+    **dict(self._get_exec_options(), **options)
+  File "/home/python/.virtualenvs/meiduo_django/lib/python3.5/site-packages/celery/app/base.py", line 354, in send_task
+    reply_to=reply_to or self.oid, **options
+  File "/home/python/.virtualenvs/meiduo_django/lib/python3.5/site-packages/celery/app/amqp.py", line 310, in publish_task
+    **kwargs
+  File "/home/python/.virtualenvs/meiduo_django/lib/python3.5/site-packages/kombu/messaging.py", line 172, in publish
+    routing_key, mandatory, immediate, exchange, declare)
+  File "/home/python/.virtualenvs/meiduo_django/lib/python3.5/site-packages/kombu/connection.py", line 470, in _ensured
+    interval_max)
+  File "/home/python/.virtualenvs/meiduo_django/lib/python3.5/site-packages/kombu/connection.py", line 382, in ensure_connection
+    interval_start, interval_step, interval_max, callback)
+  File "/home/python/.virtualenvs/meiduo_django/lib/python3.5/site-packages/kombu/utils/__init__.py", line 246, in retry_over_time
+    return fun(*args, **kwargs)
+  File "/home/python/.virtualenvs/meiduo_django/lib/python3.5/site-packages/kombu/connection.py", line 250, in connect
+    return self.connection
+  File "/home/python/.virtualenvs/meiduo_django/lib/python3.5/site-packages/kombu/connection.py", line 756, in connection
+    self._connection = self._establish_connection()
+  File "/home/python/.virtualenvs/meiduo_django/lib/python3.5/site-packages/kombu/connection.py", line 711, in _establish_connection
+    conn = self.transport.establish_connection()
+  File "/home/python/.virtualenvs/meiduo_django/lib/python3.5/site-packages/kombu/transport/pyamqp.py", line 116, in establish_connection
+    conn = self.Connection(**opts)
+  File "/home/python/.virtualenvs/meiduo_django/lib/python3.5/site-packages/amqp/connection.py", line 165, in __init__
+    self.transport = self.Transport(host, connect_timeout, ssl)
+  File "/home/python/.virtualenvs/meiduo_django/lib/python3.5/site-packages/amqp/connection.py", line 186, in Transport
+    return create_transport(host, connect_timeout, ssl)
+  File "/home/python/.virtualenvs/meiduo_django/lib/python3.5/site-packages/amqp/transport.py", line 299, in create_transport
+    return TCPTransport(host, connect_timeout)
+  File "/home/python/.virtualenvs/meiduo_django/lib/python3.5/site-packages/amqp/transport.py", line 95, in __init__
+    raise socket.error(last_err)
+OSError: [Errno 111] Connection refused
+ERROR 2019-07-12 15:48:43,866 basehttp 124 "GET /sms_codes/17793491278/?text=V9KL&image_code_id=7b8d12b2-6c16-41b5-9a7f-a1b36a9cfeb6 HTTP/1.1" 500 25447
+INFO 2019-07-12 15:49:27,075 basehttp 124 "GET /image_codes/dd13d72e-e5ea-4a12-a3fe-7512859d05d1/ HTTP/1.1" 200 3587
+WARNING 2019-07-12 15:49:35,938 log 228 Not Found: /mobiles/17793491278/count/
+WARNING 2019-07-12 15:49:35,951 basehttp 124 "GET /mobiles/17793491278/count/ HTTP/1.1" 404 2393
+WARNING 2019-07-12 15:49:35,954 log 228 Bad Request: /sms_codes/17793491278/
+WARNING 2019-07-12 15:49:35,955 basehttp 124 "GET /sms_codes/17793491278/?text=nsm9&image_code_id=dd13d72e-e5ea-4a12-a3fe-7512859d05d1 HTTP/1.1" 400 55
+INFO 2019-07-12 15:51:58,213 basehttp 124 "GET /image_codes/c9e30f27-b750-46ea-9ac3-f8c4426b6366/ HTTP/1.1" 200 2906
+WARNING 2019-07-12 15:52:09,401 log 228 Not Found: /mobiles/17793491278/count/
+WARNING 2019-07-12 15:52:09,402 basehttp 124 "GET /mobiles/17793491278/count/ HTTP/1.1" 404 2393
+WARNING 2019-07-12 15:52:09,505 log 228 Not Found: /mobiles/17793491278/count/
+WARNING 2019-07-12 15:52:09,506 basehttp 124 "GET /mobiles/17793491278/count/ HTTP/1.1" 404 2393
+INFO 2019-07-12 15:52:09,572 basehttp 124 "GET /sms_codes/17793491278/?text=zple&image_code_id=c9e30f27-b750-46ea-9ac3-f8c4426b6366 HTTP/1.1" 200 16
+WARNING 2019-07-12 15:57:43,317 log 228 Bad Request: /sms_codes/17793491278/
+WARNING 2019-07-12 15:57:43,318 log 228 Not Found: /mobiles/17793491278/count/
+WARNING 2019-07-12 15:57:43,320 basehttp 124 "GET /mobiles/17793491278/count/ HTTP/1.1" 404 2393
+WARNING 2019-07-12 15:57:43,323 basehttp 124 "GET /sms_codes/17793491278/?text=zple&image_code_id=c9e30f27-b750-46ea-9ac3-f8c4426b6366 HTTP/1.1" 400 49
+INFO 2019-07-12 15:57:44,615 basehttp 124 "GET /image_codes/9f5d3fcc-5f65-4c72-af89-22a0a8078538/ HTTP/1.1" 200 3219
+WARNING 2019-07-12 15:57:51,936 log 228 Not Found: /mobiles/17793491278/count/
+WARNING 2019-07-12 15:57:51,973 basehttp 124 "GET /mobiles/17793491278/count/ HTTP/1.1" 404 2393
+INFO 2019-07-12 15:57:52,008 basehttp 124 "GET /sms_codes/17793491278/?text=rein&image_code_id=9f5d3fcc-5f65-4c72-af89-22a0a8078538 HTTP/1.1" 200 16
+INFO 2019-07-12 16:28:22,290 basehttp 124 "GET /image_codes/a4377d41-277c-45d9-b3cd-f24a085727b3/ HTTP/1.1" 200 3626
+WARNING 2019-07-12 16:28:29,482 log 228 Not Found: /mobiles/17793491278/count/
+WARNING 2019-07-12 16:28:29,501 basehttp 124 "GET /mobiles/17793491278/count/ HTTP/1.1" 404 2393
+INFO 2019-07-12 16:28:29,540 basehttp 124 "GET /sms_codes/17793491278/?text=rcvm&image_code_id=a4377d41-277c-45d9-b3cd-f24a085727b3 HTTP/1.1" 200 16
+INFO 2019-07-12 16:28:30,158 tasks 31 发送验证码短信[正常][ mobile: 17793491278 ]

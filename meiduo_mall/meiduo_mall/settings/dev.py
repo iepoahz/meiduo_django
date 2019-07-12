@@ -250,3 +250,4 @@ djcelery.setup_loader()
 BROKER_URL= "redis://127.0.0.1/14"
 # 异步结果 result_backend
 CELERY_RESULT_BACKEND = "redis://127.0.0.1/15"
+
