@@ -12,6 +12,7 @@ https://docs.djangoproject.com/en/2.1/ref/settings/
 
 import os
 import sys
+import djcelery
 
 #todo 项目路径
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
@@ -47,7 +48,7 @@ INSTALLED_APPS = [
     'corsheaders',  #跨域请求第三方库django-cors-headers==2.4.0
     'users.apps.UsersConfig', #子应用users
     'verifications.apps.VerificationsConfig', #子应用verifications
-
+    'djcelery' #异步任务队列
 
 
 
@@ -64,12 +65,14 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
+#todo 主url控制配置
 ROOT_URLCONF = 'meiduo_mall.urls'
 
+#todo 模板配置
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [os.path.join(BASE_DIR, 'templates'),],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -115,6 +118,14 @@ CACHES = {
         "BACKEND": "django_redis.cache.RedisCache",#后端
         "LOCATION": "redis://127.0.0.1/1",#地址
         "OPTIONS": {   #选择
+            "CLIENT_CLASS": "django_redis.client.DefaultClient",
+        }
+    },
+    # 子应用 verifications  图片验证码  短信验证码
+    "verify_codes": {
+        "BACKEND": "django_redis.cache.RedisCache",
+        "LOCATION": "redis://127.0.0.1:6379/2",
+        "OPTIONS": {
             "CLIENT_CLASS": "django_redis.client.DefaultClient",
         }
     },
@@ -229,5 +240,13 @@ USE_TZ = True
 #todo 静态文件配置
 STATIC_URL = '/static/'  #url路径
 STATICFILES_DIRS = [  #文件路径
-    os.path.join(BASE_DIR, 'front_end'), #'/project/django/meiduo_mall/meiduo_mall/front_end'
+    os.path.join(BASE_DIR, 'front_end'), #'.../meiduo_mall/meiduo_mall/front_end'
 ]
+
+#todo celery 异步任务队列
+
+djcelery.setup_loader()
+# 任务队列 broker_url
+BROKER_URL= "redis://127.0.0.1/14"
+# 异步结果 result_backend
+CELERY_RESULT_BACKEND = "redis://127.0.0.1/15"
